@@ -34,6 +34,11 @@ public class SphericalHarmonicsAnimator : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
         if (Time.time - lastUpdate > updateInterval || Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space))
         {
             targetM0 = Random.Range(0, 6);

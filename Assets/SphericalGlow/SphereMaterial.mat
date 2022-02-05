@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: SphereMaterial
   m_Shader: {fileID: 4800000, guid: 62be2b8cd0865da4a8ba0927b7de262e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -92,14 +92,14 @@ Material:
     - _m5: 1
     - _m6: 0
     - _m7: 1
-    - m0: 4.175889
-    - m1: 1
-    - m2: 2.7252967
-    - m3: 1.8241062
+    - m0: 4
+    - m1: 2.413111
+    - m2: 3.586889
+    - m3: 1.137709
     - m4: 3
-    - m5: 2
-    - m6: 1
-    - m7: 1
+    - m5: 1
+    - m6: 3
+    - m7: 4
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

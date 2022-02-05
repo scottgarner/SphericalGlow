@@ -97,7 +97,7 @@ Shader "Unlit/NewUnlitShader"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 c = i.color;//tex2D(_MainTex, i.uv);
-                c -= (1-i.fresnel)*.20;
+                c -= (1-i.fresnel)*.25;
                 return c;
             }
             ENDCG
